@@ -1,0 +1,4 @@
+db.users.createIndex({ username: 1, email: 1 })
+
+// Benefits of using compound query
+Creating a compound index on multiple fields can improve query performance for queries that filter, sort, or aggregate based on those fields.
